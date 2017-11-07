@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B46748128687BDD77B139E0 /* Pods_BatCityCrossFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CA654B5BCDCB19AFA22C73 /* Pods_BatCityCrossFit.framework */; };
+		F81208101F88172F0087F0C0 /* OlyPunchCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812080F1F88172F0087F0C0 /* OlyPunchCards.swift */; };
+		F81208121F881A950087F0C0 /* cardio_punch_card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81208111F881A950087F0C0 /* cardio_punch_card.swift */; };
+		F81208141F90D20B0087F0C0 /* contactus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81208131F90D20B0087F0C0 /* contactus.swift */; };
 		F87CA3441F6DAB2D00A2E608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CA3431F6DAB2D00A2E608 /* AppDelegate.swift */; };
 		F87CA3461F6DAB2D00A2E608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CA3451F6DAB2D00A2E608 /* ViewController.swift */; };
 		F87CA3491F6DAB2D00A2E608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87CA3471F6DAB2D00A2E608 /* Main.storyboard */; };
 		F87CA34B1F6DAB2D00A2E608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87CA34A1F6DAB2D00A2E608 /* Assets.xcassets */; };
 		F87CA34E1F6DAB2D00A2E608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87CA34C1F6DAB2D00A2E608 /* LaunchScreen.storyboard */; };
+		F87CA3581F6DB14100A2E608 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87CA3571F6DB14100A2E608 /* GoogleService-Info.plist */; };
+		F87CA35A1F6F6D6700A2E608 /* PunchCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CA3591F6F6D6700A2E608 /* PunchCards.swift */; };
+		F87CA35C1F6F70C700A2E608 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CA35B1F6F70C700A2E608 /* Constants.swift */; };
+		F87CA3601F73D46B00A2E608 /* redeemed.png in Resources */ = {isa = PBXBuildFile; fileRef = F87CA35E1F73D46B00A2E608 /* redeemed.png */; };
+		F87CA3611F73D46B00A2E608 /* redeemedblue.png in Resources */ = {isa = PBXBuildFile; fileRef = F87CA35F1F73D46B00A2E608 /* redeemedblue.png */; };
+		F87CA3631F75BDF100A2E608 /* CheckIns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CA3621F75BDF100A2E608 /* CheckIns.swift */; };
+		F8F02B8B1F79F9B8009EC214 /* GymStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F02B8A1F79F9B8009EC214 /* GymStore.swift */; };
+		F8F02B8D1F7FCE73009EC214 /* chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F02B8C1F7FCE73009EC214 /* chat.swift */; };
+		F8F02B8F1F819FDC009EC214 /* scanqr.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F02B8E1F819FDC009EC214 /* scanqr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CA654B5BCDCB19AFA22C73 /* Pods_BatCityCrossFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BatCityCrossFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3642898246FE43365B57B6AB /* Pods-BatCityCrossFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatCityCrossFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit.release.xcconfig"; sourceTree = "<group>"; };
+		85669A737E7038306FE76176 /* Pods-BatCityCrossFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatCityCrossFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit.debug.xcconfig"; sourceTree = "<group>"; };
+		F812080F1F88172F0087F0C0 /* OlyPunchCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlyPunchCards.swift; sourceTree = "<group>"; };
+		F81208111F881A950087F0C0 /* cardio_punch_card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardio_punch_card.swift; sourceTree = "<group>"; };
+		F81208131F90D20B0087F0C0 /* contactus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactus.swift; sourceTree = "<group>"; };
+		F81208151F945F910087F0C0 /* BatCityCrossFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatCityCrossFit.entitlements; sourceTree = "<group>"; };
 		F87CA3401F6DAB2D00A2E608 /* BatCityCrossFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatCityCrossFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87CA3431F6DAB2D00A2E608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87CA3451F6DAB2D00A2E608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,15 @@
 		F87CA34A1F6DAB2D00A2E608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87CA34D1F6DAB2D00A2E608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87CA34F1F6DAB2D00A2E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87CA3571F6DB14100A2E608 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "BatCityCrossFit/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F87CA3591F6F6D6700A2E608 /* PunchCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchCards.swift; sourceTree = "<group>"; };
+		F87CA35B1F6F70C700A2E608 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F87CA35E1F73D46B00A2E608 /* redeemed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redeemed.png; sourceTree = "<group>"; };
+		F87CA35F1F73D46B00A2E608 /* redeemedblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redeemedblue.png; sourceTree = "<group>"; };
+		F87CA3621F75BDF100A2E608 /* CheckIns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckIns.swift; sourceTree = "<group>"; };
+		F8F02B8A1F79F9B8009EC214 /* GymStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymStore.swift; sourceTree = "<group>"; };
+		F8F02B8C1F7FCE73009EC214 /* chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chat.swift; sourceTree = "<group>"; };
+		F8F02B8E1F819FDC009EC214 /* scanqr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanqr.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +58,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B46748128687BDD77B139E0 /* Pods_BatCityCrossFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093EB4CAAC2AFA59243D186F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85669A737E7038306FE76176 /* Pods-BatCityCrossFit.debug.xcconfig */,
+				3642898246FE43365B57B6AB /* Pods-BatCityCrossFit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EB0F8D9DA918200ACAE8B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CA654B5BCDCB19AFA22C73 /* Pods_BatCityCrossFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F87CA3371F6DAB2D00A2E608 = {
 			isa = PBXGroup;
 			children = (
+				F87CA35D1F73D44600A2E608 /* Images */,
+				F87CA3571F6DB14100A2E608 /* GoogleService-Info.plist */,
 				F87CA3421F6DAB2D00A2E608 /* BatCityCrossFit */,
 				F87CA3411F6DAB2D00A2E608 /* Products */,
+				093EB4CAAC2AFA59243D186F /* Pods */,
+				7EB0F8D9DA918200ACAE8B14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,33 @@
 		F87CA3421F6DAB2D00A2E608 /* BatCityCrossFit */ = {
 			isa = PBXGroup;
 			children = (
+				F81208151F945F910087F0C0 /* BatCityCrossFit.entitlements */,
 				F87CA3431F6DAB2D00A2E608 /* AppDelegate.swift */,
 				F87CA3451F6DAB2D00A2E608 /* ViewController.swift */,
 				F87CA3471F6DAB2D00A2E608 /* Main.storyboard */,
+				F81208131F90D20B0087F0C0 /* contactus.swift */,
 				F87CA34A1F6DAB2D00A2E608 /* Assets.xcassets */,
 				F87CA34C1F6DAB2D00A2E608 /* LaunchScreen.storyboard */,
 				F87CA34F1F6DAB2D00A2E608 /* Info.plist */,
+				F87CA3591F6F6D6700A2E608 /* PunchCards.swift */,
+				F81208111F881A950087F0C0 /* cardio_punch_card.swift */,
+				F812080F1F88172F0087F0C0 /* OlyPunchCards.swift */,
+				F87CA35B1F6F70C700A2E608 /* Constants.swift */,
+				F87CA3621F75BDF100A2E608 /* CheckIns.swift */,
+				F8F02B8A1F79F9B8009EC214 /* GymStore.swift */,
+				F8F02B8C1F7FCE73009EC214 /* chat.swift */,
 			);
 			path = BatCityCrossFit;
+			sourceTree = "<group>";
+		};
+		F87CA35D1F73D44600A2E608 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F8F02B8E1F819FDC009EC214 /* scanqr.png */,
+				F87CA35E1F73D46B00A2E608 /* redeemed.png */,
+				F87CA35F1F73D46B00A2E608 /* redeemedblue.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F87CA3521F6DAB2D00A2E608 /* Build configuration list for PBXNativeTarget "BatCityCrossFit" */;
 			buildPhases = (
+				BA945EE86606B6BD8E311A06 /* [CP] Check Pods Manifest.lock */,
 				F87CA33C1F6DAB2D00A2E608 /* Sources */,
 				F87CA33D1F6DAB2D00A2E608 /* Frameworks */,
 				F87CA33E1F6DAB2D00A2E608 /* Resources */,
+				6360FF8D831A480C055E3279 /* [CP] Embed Pods Frameworks */,
+				9054A6276753E1F0D929EC92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +171,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YU62SBZ49K;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,7 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87CA3611F73D46B00A2E608 /* redeemedblue.png in Resources */,
+				F87CA3601F73D46B00A2E608 /* redeemed.png in Resources */,
+				F8F02B8F1F819FDC009EC214 /* scanqr.png in Resources */,
 				F87CA34E1F6DAB2D00A2E608 /* LaunchScreen.storyboard in Resources */,
+				F87CA3581F6DB14100A2E608 /* GoogleService-Info.plist in Resources */,
 				F87CA34B1F6DAB2D00A2E608 /* Assets.xcassets in Resources */,
 				F87CA3491F6DAB2D00A2E608 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +214,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6360FF8D831A480C055E3279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9054A6276753E1F0D929EC92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatCityCrossFit/Pods-BatCityCrossFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA945EE86606B6BD8E311A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BatCityCrossFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F87CA33C1F6DAB2D00A2E608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F02B8D1F7FCE73009EC214 /* chat.swift in Sources */,
+				F87CA35A1F6F6D6700A2E608 /* PunchCards.swift in Sources */,
 				F87CA3461F6DAB2D00A2E608 /* ViewController.swift in Sources */,
 				F87CA3441F6DAB2D00A2E608 /* AppDelegate.swift in Sources */,
+				F87CA35C1F6F70C700A2E608 /* Constants.swift in Sources */,
+				F81208101F88172F0087F0C0 /* OlyPunchCards.swift in Sources */,
+				F81208121F881A950087F0C0 /* cardio_punch_card.swift in Sources */,
+				F87CA3631F75BDF100A2E608 /* CheckIns.swift in Sources */,
+				F81208141F90D20B0087F0C0 /* contactus.swift in Sources */,
+				F8F02B8B1F79F9B8009EC214 /* GymStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +433,38 @@
 		};
 		F87CA3531F6DAB2D00A2E608 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85669A737E7038306FE76176 /* Pods-BatCityCrossFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BatCityCrossFit/BatCityCrossFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YU62SBZ49K;
 				INFOPLIST_FILE = BatCityCrossFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tommybear.BatCityCrossFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybear.batcitycrossfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F87CA3541F6DAB2D00A2E608 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3642898246FE43365B57B6AB /* Pods-BatCityCrossFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BatCityCrossFit/BatCityCrossFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YU62SBZ49K;
 				INFOPLIST_FILE = BatCityCrossFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tommybear.BatCityCrossFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybear.batcitycrossfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +488,7 @@
 				F87CA3541F6DAB2D00A2E608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
